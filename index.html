@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ira2</title>
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1 class="text-center">Table</h1>
+
+    <div id="table" class="table-editable">
+        <span class="table-add glyphicon glyphicon-plus"></span>
+        <table class="table">
+            <tr>
+                <th>ДАТА</th>
+                <th>ПОСЛУГА</th>
+                <th>КОШТИ</th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <td contenteditable="true"></td>
+                <td contenteditable="true"></td>
+                <td contenteditable="true"></td>
+                <td>
+                    <span class="table-remove glyphicon glyphicon-remove"></span>
+                </td>
+                <td>
+                    <span class="table-up glyphicon glyphicon-arrow-up"></span>
+                    <span class="table-down glyphicon glyphicon-arrow-down"></span>
+                </td>
+            </tr>
+            <!-- This is our clonable table line -->
+            <tr class="hide">
+                <td contenteditable="true"></td>
+                <td contenteditable="true"></td>
+                <td contenteditable="true"></td>
+                <td>
+                    <span class="table-remove glyphicon glyphicon-remove"></span>
+                </td>
+                <td>
+                    <span class="table-up glyphicon glyphicon-arrow-up"></span>
+                    <span class="table-down glyphicon glyphicon-arrow-down"></span>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <button id="export_btn" class="btn btn-success">Export Data</button>
+    <button id='line_chart_btn' class="btn btn-primary">Лінійна діаграма</button>
+    <button id='pie_chart_btn' class="btn btn-primary">Кругова діаграма</button>
+    <!-- <div id="exportDiv"></div> -->
+    <div class="charts-container"></div>
+</div>
+
+<script src="libs/jquery/jquery-3.2.1.min.js"></script>
+<script src="libs/jquery/jquery-ui.min.js"></script>
+<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="libs/chart/Chart.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

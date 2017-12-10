@@ -4,7 +4,7 @@
   "description": "VNTU APP!",
   "main": "script.js",
   "scripts": {
-    "start": "npm i"
+    "start": "http-server"
   },
   "repository": {
     "type": "git",

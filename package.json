@@ -1,0 +1,19 @@
+{
+  "name": "ira2",
+  "version": "1.0.0",
+  "description": "VNTU APP!",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladSvitelskyi/git-vntu-myapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladSvitelskyi/git-vntu-myapp/issues"
+  },
+  "homepage": "https://github.com/vladSvitelskyi/git-vntu-myapp#readme"
+}
